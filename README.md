@@ -8,6 +8,9 @@ pueda fichar su hora de entrada y de salida en una empresa
 Para la construcción de la misma se ha hecho uso de los Servicios de Google Firestore, para crear una base de datos
 en la nube con acceso en tiempo real.
 
+*Nota: En caso de descargar la aplicación es probable que no funcione ya que los ficheros de configuración de acceso
+a los Servicios de Google se han eliminado por motivos de privacidad y seguridad*
+
 ### Desarrollada en: 
 
 <img height="30" src="https://user-images.githubusercontent.com/47610906/102832526-f2388580-43ee-11eb-91fc-8f03cc372447.png"> Android Studio.
