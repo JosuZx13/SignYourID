@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <LinearLayout
+        style="@style/LinearLayoutInfoTurn">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <TextView
+                style="@style/LabelTextViewTurn"
+                android:text="@string/label_turn"
+                android:hint="@string/day_turn"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_day_turn"
+            style="@style/InfoTextViewTurn"
+            android:hint="@string/day_turn"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LinearLayoutInfoTurn">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+        <TextView
+            style="@style/LabelTextViewTurn"
+            android:text="@string/label_timein"
+            android:hint="@string/day_timein"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_day_timein"
+                style="@style/InfoTextViewTurn"
+                android:hint="@string/day_timein"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LinearLayoutInfoTurn">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <TextView
+                style="@style/LabelTextViewTurn"
+                android:text="@string/label_timeout"
+                android:hint="@string/day_timeout"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_day_timeout"
+                style="@style/InfoTextViewTurn"
+                android:hint="@string/day_timeout"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

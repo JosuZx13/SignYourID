@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- Icono caracteristico de usuario -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/ic_baseline_worker"
+            android:contentDescription="@string/worker_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_info_worker"
+            android:layout_centerInParent="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/margin_info_tv"
+            android:textSize="@dimen/text_size_info_worker"
+            android:autoSizeTextType="uniform"
+            android:textStyle="bold"
+            android:textColor="@color/color_alternative_secondary_light" />
+
+        <TextClock
+            android:id="@+id/textClock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="50dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/color_secondary"
+            android:format12Hour="hh:mm:ss a" />
+
+    </RelativeLayout>
+
+    <!-- Nombre -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+        <TextView
+            android:id="@+id/tv_info_name"
+            style="@style/InfoStyleWorker" />
+
+    </RelativeLayout>
+
+    <!-- Apellidos -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+        <TextView
+            android:id="@+id/tv_info_sname"
+            style="@style/InfoStyleWorker" />
+
+    </RelativeLayout>
+
+    <!-- Fecha de Nacimiento -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+        <TextView
+            android:id="@+id/tv_info_birth"
+            style="@style/InfoStyleWorker" />
+
+    </RelativeLayout>
+
+    <!-- Telefono -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+        <TextView
+            android:id="@+id/tv_info_phone"
+            style="@style/InfoStyleWorker" />
+
+    </RelativeLayout>
+
+    <!-- Email -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+        <TextView
+            android:id="@+id/tv_info_email"
+            style="@style/InfoStyleWorker" />
+
+    </RelativeLayout>
+
+    <!-- Fichar, historial de trabajo -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_margin="15dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/bt_signwork"
+            style="@style/InfoStyleButtonWorker"
+            android:text="@string/bt_sign_work" />
+
+        <Button
+            android:id="@+id/bt_historial"
+            style="@style/InfoStyleButtonWorker"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:text="@string/bt_historial"/>
+
+        <Button
+            android:id="@+id/bt_logout"
+            style="@style/InfoStyleButtonWorker"
+            android:text="@string/bt_log_out"/>
+
+    </LinearLayout>
+
+</LinearLayout>

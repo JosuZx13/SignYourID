@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pdm.signyourid">
+
+    <!-- Es necesario tener permisos de conexión a internet para acceder a la base de datos -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_signyourid"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_signyourid_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SignYourID">
+        <activity android:name=".ActivityLogin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".FragmentActivityWorker"
+            android:label="FRAGMENT-WORKER"/>
+
+        <activity android:name=".database.FragmentFirestore"
+            android:theme="@style/FloatingStyleNotTouch"
+            android:label="FRAGMENT-FIRESTORE"/>
+
+        <activity android:name=".FragmentCalendar"
+            android:theme="@style/FloatingStyleNotTouch"
+            android:label="FRAGMENT-FIRESTORE"/>
+
+        <activity android:name=".FragmentTurn"
+            android:theme="@style/FloatingStyleNotTouch"
+            android:label="FRAGMENT-TURN"/>
+
+        <activity android:name=".FragmentSignWork"
+            android:label="FRAGMENT-SIGNWORK"/>
+
+        <activity android:name=".ActivityExit"
+            android:label="ACTIVIY-EXIT"/>
+        
+    </application>
+
+</manifest>

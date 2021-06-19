@@ -1,0 +1,25 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_toast_container"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/toast_background"
+    android:baselineAligned="false">
+
+    <TextView android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="@dimen/padding_toast"
+        android:text="ESTO ES UN MENSAJE"
+        android:textAllCaps="true"
+        android:autoSizeTextType="uniform"
+        android:textColor="@color/black" />
+
+
+
+</LinearLayout>

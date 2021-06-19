@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="radius_background">15dp</dimen>
+    <dimen name="radius_calendar">10dp</dimen>
+    <dimen name="elevation_calendar">8dp</dimen>
+
+    <dimen name="margin_recyclerView">10dp</dimen>
+
+    <dimen name="label_textview">18sp</dimen>
+    <dimen name="padding_info_turn">20dp</dimen>
+
+    <dimen name="padding_toast">10dp</dimen>
+    <dimen name="entry_welcome">50dp</dimen>
+    <dimen name="padding_et_login">5dp</dimen>
+    <dimen name="et_login_text_size">18sp</dimen>
+
+    <dimen name="margin_info_tv">25dp</dimen>
+    <dimen name="text_size_info_worker">30sp</dimen>
+    <dimen name="text_size_info">20sp</dimen>
+    <dimen name="margin_calendar">15dp</dimen>
+
+    <dimen name="height_calendar">500dp</dimen>
+</resources>

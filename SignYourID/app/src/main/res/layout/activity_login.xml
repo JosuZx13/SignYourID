@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityLogin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="10dp"
+        android:layout_weight="1.5"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/title_syi"
+            android:contentDescription="@string/image_title_sign" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_log_dni"
+            style="@style/EditText_Login"
+            android:inputType="text"
+            android:hint="@string/text_item_dni"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/et_log_password"
+            style="@style/EditText_Login"
+            android:inputType="textPassword"
+            android:hint="@string/text_item_password"
+            android:layout_alignParentBottom="true"
+            android:autofillHints="" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <Button
+            android:id="@+id/bt_logging"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="@drawable/bt_background"
+            android:text="@string/log_session"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

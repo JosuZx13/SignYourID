@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SignYourID</string>
+    <string name="app_cerrar">Salir de SignYourID</string>
+    <string name="cerrar_mensaje">¿Seguro que Quiere Salir de la Aplicación?</string>
+    <string name="aceptar">Sí</string>
+    <string name="cancelar">No</string>
+
+    <string name="report_full_day">No ha sido posible fichar porque has completado tu jornada</string>
+    <string name="report_turn_mistake">No puedes registrar un segundo turno sin antes haber trabajado un primer turno y que no sea único</string>
+    <string name="report_turn_mistake_u">No puedes registrar un turno único si este día ya has fichado un turno dividido</string>
+    <string name="report_error">En estos momentos no ha sido posible realizar el registro</string>
+    <string name="report_new_success">Se ha añadido un nuevo registro correctamente</string>
+    <string name="report_success">Se ha actualizado el registro correctamente</string>
+
+    <string-array name="array_turnos">
+        <item>Turno de Mañana - 1</item>
+        <item>Turno de Tarde - 2</item>
+        <item>Turno Único</item>
+    </string-array>
+
+    <string name="day_turn">TURNO</string>
+    <string name="day_timein">ENTRADA</string>
+    <string name="day_timeout">SALIDA</string>
+
+    <string name="log_welcome">Bienvenido</string>
+    <string name="log_out_session">Cerrando sesión…</string>
+    <string name="log_session">Iniciar Sesion</string>
+    <string name="not_registers">No se ha encontrado ningún registro</string>
+    <string name="any_turn_date">No hay ningún turno fichado en el dia %1$s</string>
+
+    <string name="not_internet">Not Internet Connection</string>
+    <string name="waiting_firestore">Waiting…</string>
+    <string name="not_user_found">No se ha podido iniciar sesión con el usuario %1$s</string>
+    <string name="dni_pass_blank">El DNI o la Contraseña están en Blanco</string>
+
+    <string name="text_item_dni">DNI</string>
+    <string name="text_item_name">Name</string>
+    <string name="text_item_password">Password</string>
+    <string name="tv_info_worker">Información</string>
+
+    <!-- Content Description -->
+    <string name="worker_icon">worker_icon</string>
+    <string name="image_title_sign">Logotipo SignYourID</string>
+    <string name="bt_sign_work">Fichar</string>
+    <string name="bt_log_out">Cerrar Sesión</string>
+    <string name="bt_historial">Historial</string>
+    <string name="label_turn">TURNO :</string>
+    <string name="label_timein">HORA ENTRADA :</string>
+    <string name="label_timeout">HORA SALIDA :</string>
+    <string name="bt_signday">Registrar</string>
+
+
+</resources>
